@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: rgb(123,123,123)
+}
+#zipInput{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#submit{
+    margin: 10px auto;
+    display: block;
+    font-size: 18px;
+}
+#forecastFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#forecastFlex .forecast{
+    width: 240px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+#forecastFlex .forecast .forecastHeader{
+    width: 100%;
+    background-color: rgb(107, 156, 189);
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#forecastFlex .forecast .forecastHeader h2{
+    margin: 0;
+}
+.forecast .forecastContent{
+    display: flex;
+}
+.forecast .forecastContent > div:first-of-type{
+    width: 30%;
+}
+.forecast .forecastContent > div:nth-of-type(2){
+    width: 70%;
+}
+.forecast .forecastContent > div p{
+    margin-top: 0;
+    font-size: 20px;
+}
