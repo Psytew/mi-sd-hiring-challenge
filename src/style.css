@@ -38,12 +38,16 @@ h1{
     display: flex;
 }
 .forecast .forecastContent > div:first-of-type{
-    width: 30%;
+    width: 35%;
 }
 .forecast .forecastContent > div:nth-of-type(2){
-    width: 70%;
+    width: 65%;
 }
 .forecast .forecastContent > div p{
     margin-top: 0;
+    margin-bottom: 12px;
     font-size: 20px;
+}
+.forecast .forecastContent > div p span:first-of-type{
+    font-weight: 700;
 }
